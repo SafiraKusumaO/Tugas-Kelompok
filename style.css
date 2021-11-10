@@ -1,0 +1,136 @@
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.style-font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: Center;
+    max-width: 1200px;
+    margin: 100px;
+    color: rgb(8, 8, 8);
+}
+
+#wrapper {
+    margin: auto;
+    width: 120px;
+    border: 1px solid white;
+}
+
+#leftmenu a :hover {
+    background: wheat;
+}
+
+#leftmenu a:link a:visited a:active {
+    padding left: 10px;
+    text-decoration: none;
+}
+
+#button {
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 5px solid white;
+    padding: 10px 20px;
+    color: rgb(14, 13, 12);
+    text-decoration: none;
+    transition: 0.6%;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 12, 240);
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+}
+
+.main {
+    max-width: 750px;
+    margin: 5px;
+}
+
+#style2 {
+    background: rgb(238, 210, 120);
+    color: black;
+    display: table;
+    font-size: 20px;
+    text-align: center;
+}
+
+#style3 {
+    background: rgb(238, 210, 120);
+    color: black;
+    display: table;
+    font-size: 20px;
+    text-align: center;
+}
+
+#style4 {
+    background: rgb(238, 210, 120);
+    color: black;
+    display: table;
+    font-size: 20px;
+    text-align: center;
+}
+
+#style5 {
+    background: rgb(238, 210, 120);
+    color: black;
+    padding: 15px;
+    display: table-row;
+    font-size: 20px;
+    text-align: center;
+}
+
+#style6 {
+    background: rgb(238, 210, 120);
+    color: rgb(10, 10, 10);
+    display: table;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#style7 {
+    border: 5px solid rgb(255, 255, 255);
+    background: rgb(245, 227, 126);
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
